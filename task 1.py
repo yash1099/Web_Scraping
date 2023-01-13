@@ -67,5 +67,8 @@ def save_file(text):
 if __name__ == '__main__':
 	text = collect_text(get_page())
 	save_file(text)
+	
+	# This is the change
+	print("We have completed this task......")
 	# Instructions to Run this python code
 	# Give url as https://medium.com/@subashgandyer/papa-what-is-a-neural-network-c5e5cc427c7
